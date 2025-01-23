@@ -1,4 +1,4 @@
-Command 1:
+# Create the container
 docker run -it \
   -e POSTGRES_USER="root" \
   -e POSTGRES_PASSWORD="root" \
@@ -7,5 +7,5 @@ docker run -it \
   -p 5432:5432 \
   postgres:13
 
-Command 2:
+# Connect to it using pgcli
 pgcli -h localhost -p 5432 -u root -d ny_taxi
