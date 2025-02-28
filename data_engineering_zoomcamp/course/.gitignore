@@ -1,4 +1,6 @@
 .ipynb_checkpoints/
 ny_taxi_postgres_data/
+*.parquet
 *.csv
 01_dataset/yellow_tripdata_2021-01.parquet
+01_dataset/yellow_tripdata_2021-01.csv
